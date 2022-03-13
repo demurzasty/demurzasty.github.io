@@ -26,8 +26,6 @@ document.addEventListener("click", () => {
   source.connect(analyser);
   analyser.connect(audioCtx.destination);
 
-  console.log(analyser.frequencyBinCount);
-
   const backgroundImage = document.getElementById("background-image");
 
   setInterval(() => {
@@ -37,7 +35,7 @@ document.addEventListener("click", () => {
     const value = Math.max(...data);
 
     backgroundImage.style.filter = `brightness(${100 + value}%)`;
-  }, 32);
+  }, 16);
 
   audio.play();
 });
