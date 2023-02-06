@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['scale_0',['scale',['../structrb_1_1transform.html#a64ced6ed510a55adad2f692ceae196e0',1,'rb::transform']]],
-  ['size_1',['size',['../structrb_1_1image__info.html#a34485cf313d9f04baf0ff7e5043a24b9',1,'rb::image_info']]]
+  ['r_0',['r',['../structrb_1_1color.html#ad450f60feefeb82bb7e30d9f0e0b1160',1,'rb::color']]],
+  ['rect_1',['rect',['../structrb_1_1glyph.html#aab337337e769d5fe427a6396ea4a1801',1,'rb::glyph']]],
+  ['rotation_2',['rotation',['../structrb_1_1transform.html#a6b1fca623997d913ba2f4935c5eee82c',1,'rb::transform']]]
 ];

@@ -21,6 +21,7 @@ digraph "C:/Users/thecy/Development/Libraries/rabbit/include/rabbit"
   dir_94c90a046fd783719c3c71a8ad6d842f [label="physics", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_94c90a046fd783719c3c71a8ad6d842f.html",tooltip=""];
   dir_e87b04c05e364064bd88a876db367026 [label="platform", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_e87b04c05e364064bd88a876db367026.html",tooltip=""];
   dir_a6cc541b3a5ed3f6d4a77c647cb264be [label="systems", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_a6cc541b3a5ed3f6d4a77c647cb264be.html",tooltip=""];
+  dir_9841a68b161c4c77ee9553dbec0134e7 [label="ui", fillcolor="#4ea9ff", color="grey25", style="filled", URL="dir_9841a68b161c4c77ee9553dbec0134e7.html",tooltip=""];
   }
   }
 }

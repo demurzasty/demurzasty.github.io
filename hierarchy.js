@@ -6,6 +6,7 @@ var hierarchy =
     [ "rb::basic_vec2< float >", "structrb_1_1basic__vec2.html", null ],
     [ "rb::basic_vec2< unsigned int >", "structrb_1_1basic__vec2.html", null ],
     [ "rb::basic_vec4< T >", "structrb_1_1basic__vec4.html", null ],
+    [ "rb::basic_vec4< float >", "structrb_1_1basic__vec4.html", null ],
     [ "rb::basic_vec4< int >", "structrb_1_1basic__vec4.html", null ],
     [ "rb::canvas", "classrb_1_1canvas.html", null ],
     [ "rb::client", "classrb_1_1client.html", null ],
@@ -25,9 +26,15 @@ var hierarchy =
     [ "rb::physics", "classrb_1_1physics.html", null ],
     [ "rb::rect_pack", "classrb_1_1rect__pack.html", null ],
     [ "rb::ref< Ref >", "classrb_1_1ref.html", null ],
+    [ "rb::ref< rb::shape >", "classrb_1_1ref.html", null ],
     [ "rb::ref< rb::texture >", "classrb_1_1ref.html", null ],
     [ "rb::reference", "classrb_1_1reference.html", [
+      [ "rb::body", "classrb_1_1body.html", null ],
       [ "rb::font", "classrb_1_1font.html", null ],
+      [ "rb::shape", "classrb_1_1shape.html", [
+        [ "rb::box_shape", "classrb_1_1box__shape.html", null ],
+        [ "rb::circle_shape", "classrb_1_1circle__shape.html", null ]
+      ] ],
       [ "rb::texture", "classrb_1_1texture.html", null ]
     ] ],
     [ "rb::renderer", "classrb_1_1renderer.html", null ],
@@ -39,6 +46,7 @@ var hierarchy =
     [ "rb::texture_loader", "classrb_1_1texture__loader.html", null ],
     [ "rb::thread_pool", "classrb_1_1thread__pool.html", null ],
     [ "rb::transform", "structrb_1_1transform.html", null ],
+    [ "rb::ui", "classrb_1_1ui.html", null ],
     [ "rb::vertex2d", "structrb_1_1vertex2d.html", null ],
     [ "rb::window", "classrb_1_1window.html", null ]
 ];

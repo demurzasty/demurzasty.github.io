@@ -5,6 +5,7 @@ var searchData=
   ['image_5finfo_2',['image_info',['../structrb_1_1image__info.html',1,'rb']]],
   ['image_5floader_3',['image_loader',['../classrb_1_1image__loader.html',1,'rb']]],
   ['info_4',['info',['../classrb_1_1image.html#a3224cf34209d4929864f7c862272aea2',1,'rb::image']]],
-  ['is_5fopen_5',['is_open',['../classrb_1_1window.html#a6242adc6326abddcdc5674c5ea01cf18',1,'rb::window']]],
-  ['is_5ftexture_5fvalid_6',['is_texture_valid',['../classrb_1_1renderer.html#ae8784a412827569151b665bcd5d4e210',1,'rb::renderer']]]
+  ['introduction_5',['Introduction',['../index.html',1,'']]],
+  ['is_5fopen_6',['is_open',['../classrb_1_1window.html#a6242adc6326abddcdc5674c5ea01cf18',1,'rb::window']]],
+  ['is_5ftexture_5fvalid_7',['is_texture_valid',['../classrb_1_1renderer.html#ae8784a412827569151b665bcd5d4e210',1,'rb::renderer']]]
 ];

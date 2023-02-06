@@ -5,5 +5,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [label="rb::painter",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classrb_1_1painter.html",tooltip="Painter class to simplify 2D rendering."];
+  Node0 [label="rb::mouse_move_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$structrb_1_1mouse__move__event.html",tooltip="Mouse move event."];
 }

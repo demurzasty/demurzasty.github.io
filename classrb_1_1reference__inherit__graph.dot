@@ -6,7 +6,15 @@ digraph "rb::reference"
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   Node1 [label="rb::reference",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Base class for reference counting."];
   Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
-  Node2 [label="rb::font",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$classrb_1_1font.html",tooltip="Class for loading and manipulating character fonts."];
+  Node2 [label="rb::body",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$classrb_1_1body.html",tooltip="Physics body."];
   Node1 -> Node3 [dir="back",color="steelblue1",style="solid"];
-  Node3 [label="rb::texture",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$classrb_1_1texture.html",tooltip="A structure that contains an efficient, driver-specific representation of pixel data...."];
+  Node3 [label="rb::font",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$classrb_1_1font.html",tooltip="Class for loading and manipulating character fonts."];
+  Node1 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node4 [label="rb::shape",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$classrb_1_1shape.html",tooltip="Physics shape."];
+  Node4 -> Node5 [dir="back",color="steelblue1",style="solid"];
+  Node5 [label="rb::box_shape",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$classrb_1_1box__shape.html",tooltip="Box physics shape."];
+  Node4 -> Node6 [dir="back",color="steelblue1",style="solid"];
+  Node6 [label="rb::circle_shape",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$classrb_1_1circle__shape.html",tooltip="Circle physics shape."];
+  Node1 -> Node7 [dir="back",color="steelblue1",style="solid"];
+  Node7 [label="rb::texture",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$classrb_1_1texture.html",tooltip="A structure that contains an efficient, driver-specific representation of pixel data...."];
 }

@@ -8,6 +8,7 @@ var classrb_1_1font =
     [ "atlas", "classrb_1_1font.html#a78d24a41ddc4578ed3a02b9643297f87", null ],
     [ "get_glyph", "classrb_1_1font.html#aa2be77be1f3b01fd6b29884734859f2a", null ],
     [ "get_kerning", "classrb_1_1font.html#ab6bff9de7f59c295207876893dcab13a", null ],
+    [ "get_text_size", "classrb_1_1font.html#aa5492c380a2917f1855ad77505fd6f31", null ],
     [ "operator=", "classrb_1_1font.html#a924589a97cd1cb6f1817610721a66508", null ],
     [ "operator=", "classrb_1_1font.html#a5ee606005f0db24f3f4aaef060399b71", null ]
 ];

@@ -25,19 +25,14 @@
 var NAVTREE =
 [
   [ "RabBit", "index.html", [
-    [ "Goals", "index.html#autotoc_md1", null ],
-    [ "Requirements", "index.html#autotoc_md2", null ],
-    [ "Code examples", "index.html#autotoc_md3", [
-      [ "Hello world example", "index.html#autotoc_md4", null ]
-    ] ],
-    [ "License", "index.html#autotoc_md5", null ],
+    [ "Introduction", "index.html", "index" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", null ],
+        [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", null ]
       ] ]
     ] ]
@@ -47,7 +42,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"structrb_1_1color.html#a1fee55fb8ac1d61b4a05d126aaa019d0"
+"functions_f.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

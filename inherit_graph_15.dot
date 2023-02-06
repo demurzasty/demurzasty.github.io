@@ -5,5 +5,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [label="rb::image",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classrb_1_1image.html",tooltip="Object oriented wrapper of pixels buffer."];
+  Node0 [label="rb::glyph",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$structrb_1_1glyph.html",tooltip="Structure describing a font glyph."];
 }

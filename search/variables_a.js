@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['texcoord_0',['texcoord',['../structrb_1_1vertex2d.html#a5fa9bff2eaccd41736ebef45ead81163',1,'rb::vertex2d']]],
-  ['texture_1',['texture',['../structrb_1_1sprite.html#ae423d2ac10e3e55cd77c2bd9a8fe5b11',1,'rb::sprite']]]
+  ['scale_0',['scale',['../structrb_1_1transform.html#a64ced6ed510a55adad2f692ceae196e0',1,'rb::transform']]],
+  ['size_1',['size',['../structrb_1_1image__info.html#a34485cf313d9f04baf0ff7e5043a24b9',1,'rb::image_info']]]
 ];

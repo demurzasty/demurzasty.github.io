@@ -99,6 +99,7 @@ $(document).ready(function(){initNavTree('structrb_1_1basic__vec4.html',''); ini
 
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structrb_1_1basic__vec4-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">rb::basic_vec4&lt; T &gt; Struct Template Reference</div></div>
@@ -108,6 +109,18 @@ $(document).ready(function(){initNavTree('structrb_1_1basic__vec4.html',''); ini
 <p>Representation of 4D vectors and points.  
  <a href="structrb_1_1basic__vec4.html#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ab9f29badc35b033c3172154901eb3fb3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structrb_1_1basic__vec2.html">basic_vec2</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrb_1_1basic__vec4.html#ab9f29badc35b033c3172154901eb3fb3">position</a> () const</td></tr>
+<tr class="memdesc:ab9f29badc35b033c3172154901eb3fb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get position (xy).  <br /></td></tr>
+<tr class="separator:ab9f29badc35b033c3172154901eb3fb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d58fe82d11e80409d190854c70d531d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structrb_1_1basic__vec2.html">basic_vec2</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrb_1_1basic__vec4.html#a8d58fe82d11e80409d190854c70d531d">size</a> () const</td></tr>
+<tr class="memdesc:a8d58fe82d11e80409d190854c70d531d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get size (xy).  <br /></td></tr>
+<tr class="separator:a8d58fe82d11e80409d190854c70d531d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fe351bf8c9cbc20a79c625a2223ff32"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrb_1_1basic__vec4.html#a9fe351bf8c9cbc20a79c625a2223ff32">contains</a> (const <a class="el" href="structrb_1_1basic__vec2.html">basic_vec2</a>&lt; T &gt; &amp;point) const</td></tr>
+<tr class="memdesc:a9fe351bf8c9cbc20a79c625a2223ff32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if point is inside a rectangle.  <br /></td></tr>
+<tr class="separator:a9fe351bf8c9cbc20a79c625a2223ff32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a3512cd1ffe5456c5721e42920482d746"><td class="memItemLeft" align="right" valign="top"><a id="a3512cd1ffe5456c5721e42920482d746" name="a3512cd1ffe5456c5721e42920482d746"></a>
@@ -130,7 +143,99 @@ T&#160;</td><td class="memItemRight" valign="bottom"><b>w</b></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
 struct rb::basic_vec4&lt; T &gt;</div><p>Representation of 4D vectors and points. </p>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a9fe351bf8c9cbc20a79c625a2223ff32" name="a9fe351bf8c9cbc20a79c625a2223ff32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fe351bf8c9cbc20a79c625a2223ff32">&#9670;&#160;</a></span>contains()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="structrb_1_1basic__vec4.html">rb::basic_vec4</a>&lt; T &gt;::contains </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structrb_1_1basic__vec2.html">basic_vec2</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>point</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if point is inside a rectangle. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if rectangle contains point, false otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="ab9f29badc35b033c3172154901eb3fb3" name="ab9f29badc35b033c3172154901eb3fb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9f29badc35b033c3172154901eb3fb3">&#9670;&#160;</a></span>position()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structrb_1_1basic__vec2.html">basic_vec2</a>&lt; T &gt; &amp; <a class="el" href="structrb_1_1basic__vec4.html">rb::basic_vec4</a>&lt; T &gt;::position </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get position (xy). </p>
+<dl class="section return"><dt>Returns</dt><dd>X, Y components. </dd></dl>
+
+</div>
+</div>
+<a id="a8d58fe82d11e80409d190854c70d531d" name="a8d58fe82d11e80409d190854c70d531d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d58fe82d11e80409d190854c70d531d">&#9670;&#160;</a></span>size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structrb_1_1basic__vec2.html">basic_vec2</a>&lt; T &gt; &amp; <a class="el" href="structrb_1_1basic__vec4.html">rb::basic_vec4</a>&lt; T &gt;::size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get size (xy). </p>
+<dl class="section return"><dt>Returns</dt><dd>Z, W components. </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

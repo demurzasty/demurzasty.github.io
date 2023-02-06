@@ -9,5 +9,6 @@ var searchData=
   ['restart_6',['restart',['../classrb_1_1stopwatch.html#afcb53e17150dfa5ce596892148430658',1,'rb::stopwatch']]],
   ['retain_7',['retain',['../classrb_1_1reference.html#af0aaec6ea9fb197e8067f7513c34ab94',1,'rb::reference']]],
   ['rotated_8',['rotated',['../structrb_1_1basic__vec2.html#a4d0567c8a0b70af62f0b3c713ac08744',1,'rb::basic_vec2']]],
-  ['round_9',['round',['../structrb_1_1basic__vec2.html#a9e388138a7b17fa06f93c6dcc90bbcdb',1,'rb::basic_vec2']]]
+  ['rotation_9',['rotation',['../classrb_1_1body.html#aadeaca978fc6f73078cd6eec7cd778ff',1,'rb::body']]],
+  ['round_10',['round',['../structrb_1_1basic__vec2.html#a9e388138a7b17fa06f93c6dcc90bbcdb',1,'rb::basic_vec2']]]
 ];
